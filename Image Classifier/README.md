@@ -31,7 +31,7 @@ This project also can be run as a command line argument. Below are the instructi
 * Train a new network on a data set with `train.py` file
     - Basic Command : `python train.py` (This will assume the the file path as the current directory for saving the checkpoint.pth file and train the model with default parameter values)
     - To train using the full argument list, below parameters to be passed in the command line. A Sample command with full arguments to run from project root directory as follows:
-     - `python train.py --data_dir './' --arch 'densenet121' --learning_rate 0.001 --hidden_units 120 --epochs 1 --gpu 'gpu' --save_dir './checkpoint.pth'`
+     - `python train.py --data_dir './' --arch 'densenet121' --learning_rate 0.001 --hidden_units 512 --epochs 3 --gpu 'gpu' --save_dir './checkpoint.pth'`
         - data direcotry:  --data_dir './' 
         - or save directory to save checkpoints: --save_dir './'
         - Arcitecture Choices (densenet121 or vgg16): --arch "vgg16" or --arch "densenet121"
