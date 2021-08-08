@@ -58,7 +58,9 @@ Since the model is using deep convolutional neural network for training process,
 * A big learning rate guarantees that the network will converge fast to a small error but it will constantly overshot
 * A small learning rate guarantees that the network will reach greater accuracies but the learning process will take longer
 * Densenet121 works best for images but the training process takes significantly longer than vgg16
-* Default settings that are used in the project are lr=0.001, epochs= 3 and hidden_layer = 512. Test accuracy achived as 89% with densenet121 as my feature extraction model.
+* Default settings that are used in the project are lr=0.001, epochs= 3 and hidden_layer = 512. Test accuracy achived as 87% with densenet121 as my feature extraction model.
 
-### Authors
+### Author
 * [Sidharth Sabat](https://www.linkedin.com/in/sidharthsabat88/)
+
+This project is licensed under the MIT License - see the LICENSE file for details
